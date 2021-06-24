@@ -1,20 +1,34 @@
+
+## ---------------------------
+##
+## Script name: Correlation between PIPO and PIIMO
+##
+## Author: Dr. Joan Dudney
+##
+## Date Created: 2021-06-23
+##
+## ---------------------------
+
+##packages
 library(tidyverse)
 library(readxl)
 library(hablar)
+
 
 select <- dplyr::select
 rename <- dplyr::rename
 group_by <- dplyr::group_by
 
-
+##theme for plots
 theme_set(
   theme_bw(base_size = 12)+
     theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
           plot.title = element_text(hjust = 0.5))
 )
 
-
-##Sharon's PIPO cores
+##=================================================================================================================
+##     ##Reading in and cleaning Sharon's PIPO cores                 
+##==================================================================================================================
 
 df <- read.table("snf-pipo-rd.txt", header = FALSE, stringsAsFactors=F)
 
@@ -33,7 +47,9 @@ treerings <- df2 %>%
   mutate(year=as.numeric(year))
 
 
-##Jonny's cores
+##=================================================================================================================
+##     ##Reading in and cleaning Jonny's sugar pine cores               
+##==================================================================================================================
 
 jcores <- read_excel("jonnydata_revised01.23.13_n104.xlsx", sheet = 2)
 
@@ -50,15 +66,22 @@ jcores_clean <- jcores %>%
   na.omit()
 
 
-##now correlating
+##now estimating correlation between pipo and pila
 cor(jcores_clean$rwi, jcores_clean$jrwi)
 
+
+##=================================================================================================================
+##   Figures                   
+##==================================================================================================================
+
+##correlation visualized
 ggplot(jcores_clean, aes(x=rwi, y=jrwi))+
   geom_point()+
   geom_smooth()+
   xlab("PIPO RWI")+
   ylab("PILA RWI")
 
+##differences across years
 ggplot(jcores_clean, aes(x=year, y=jrwi, color="PILA"))+
   geom_point()+
   geom_line()+
