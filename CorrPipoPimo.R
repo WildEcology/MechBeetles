@@ -1,7 +1,7 @@
 
 ## ---------------------------
 ##
-## Script name: Correlation between PIPO and PIIMO
+## Script name: Correlation between PIPO and PIMO
 ##
 ## Author: Dr. Joan Dudney
 ##
