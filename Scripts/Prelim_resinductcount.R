@@ -2,8 +2,8 @@
 ##=================================================================================================================
 ##                      
 ## Resin count differences across species  
-## Very prelim data by Jenny Cribbs 
-##    
+## Very prelim data collected by Jenny Cribbs, Andrew Latimer, Joan Dudney
+##  
 ##==================================================================================================================
 
 

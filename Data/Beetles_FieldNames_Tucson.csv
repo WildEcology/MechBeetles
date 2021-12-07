@@ -1,0 +1,112 @@
+﻿Tucson_ID,Site,Species,Aspect,Plot,Tree_number,Core,Elevation_m,Label_on_Straw,Day,Month,Year,GPS_point,Easting,Northing,DBH,Height,Percent_dead,Notes
+PLS0101A,SEKI,PILA,S,1,1,A,1393,SEKI S facing 1393m Tree 1 9/2/21 PILA,2,9,2021,137,,,125.2,43.5,8,cored close to pith; cones; beautiful; just across from park entry sign
+PLS0102A,SEKI,PILA,S,1,2,A,1393,SEKI S facing 1393m Tree 2 9/2/21 PILA,2,9,2021,139,,,126.1,43.3,12,cored to rot; growing around rocks; scraggly top
+PLS0103A,SEKI,PILA,S,1,3,Not_cored,1393,Not_cored,2,9,2021,138,,,6.4,3.4,4,Not cored too small
+PLS0104A,SEKI,PILA,S,1,4,Not_cored,1393,Not_cored,2,9,2021,141,,,86.3,37.8,13,Not cored--WPBR (DTOP and flags)
+PLS0105A,SEKI,PILA,S,1,5,A,1393,SEKI S facing 1393m Tree 5 9/2/21 PILA,2,9,2021,140,,,25.5,13.4,7,1 flag
+PLS0106A,SEKI,PILA,S,1,6,A,1393,SEKI S facing 1393m Tree 6 PILA (possible WPBR) 9/2/21 ,2,9,2021,142,,,30.8,12.8,5,lots of dead branches down low
+PLS0107A,SEKI,PILA,S,1,7,Not_cored,1393,Not_cored,2,9,2021,143,,,6.4,3.1,2,Not cored--too small; 1 flag and 1 swollen branch
+PLS0108A,SEKI,PILA,S,1,8,Not_cored,1393,Not_cored,2,9,2021,144,,,148.4,55.9,12,Not cored--possible WPBR and rot; dying top; over 3 flags
+PLS0109A,SEKI,PILA,S,1,9,A,1393,SEKI S facing 1393m Tree 9,2,9,2021,145,,,33,17.1,,"cored to pith, just below DBH"
+PLS0110A,SEKI,PILA,S,1,10,Not_cored,1393,Not_cored,2,9,2021,146,,,96.5,37.3,17,Not cored--lots of dying foliage; cones; probable bole canker
+PLS0111A,SEKI,PILA,S,1,11,Not_cored,1393,Not_cored,2,9,2021,147,,,18.4,8,25,"Not cored < 20 DBH; sparse, lots of flags"
+PLS0112A,SEKI,PILA,S,1,12,Not_cored,1393,Not_cored,2,9,2021,148,,,19.5,10.2,3,Not cored < 20 DBH
+PLS0113A,SEKI,PILA,S,1,13,A,1393,SEKI S facing 1393m Tree 13 9/2/21 PILA,2,9,2021,149,,,28.6,16.6,6,Cored to pith; upslope core due to branches; low fire scar
+PLN0201A,SEKI,PILA,N,2,1,A,1494,,31,7,2021,66,,,43.2,9.5,10,Wood borers; needles scortched; fire scare about 7m up the trunk
+PLN0201B,SEKI,PILA,N,2,1,B,1494,,31,7,2021,66,,,43.7,9.5,10,cored at 1.2m to the pith
+PLN0202A,SEKI,PILA,N,2,2,A,1494,,31,7,2021,67,,,58.6,11.9,10,Fire scar and singed needles
+PLN0203A,SEKI,PILA,N,2,3,A,1494,,31,7,2021,68,,,51.1,11.8,5,Fire scar about 2m; no singled needles
+PLN0204A,SEKI,PILA,N,2,4,A,1494,,31,7,2021,69,,,98.7,17.5,4,Not cored--trunk severely burned; fire scar pitching; D. valens
+PLN0205A,SEKI,PILA,N,2,5,A,1494,,31,7,2021,70,,,116.4,19,3,cored to rot; fire scar (about 6m) and pitching; webs and insect holes
+PLN0206A,SEKI,PILA,N,2,6,A,1494,,31,7,2021,71,,,104.2,16,3,"Low fire scar (about 2m), pitching. Gushed a couple liters of water and sap when cored. "
+PLN0207A,SEKI,PILA,N,2,7,A,1494,,31,7,2021,72,,,87.2,19,5,Fire scar (about 6m); on trail; about 14m from river
+PLN0208A,SEKI,PILA,N,2,8,A,1494,,31,7,2021,73,,,118.3,21,5,About 12m from river; 3 m from trail; Very deep fire scar
+PLN0209A,SEKI,PILA,N,2,9,A,1494,,31,7,2021,74,,,24.3,5.5,3,"Shaded by ABCO and rock, a bit suppressed"
+PLN0210A,SEKI,PILA,N,2,10,A,1494,SK P02 (N face) T10 PILA,31,7,2021,75,,,69,,3,
+PLN0211A,SEKI,PILA,N,2,11,A,1494,,31,7,2021,76,,,120,20,15,"Not cored--dead flagging, over 10% dead"
+PLN0212A,SEKI,PILA,N,2,12,A,1494,,31,7,2021,77,,,82.6,15,4,"Not cored--close to #69, bole canker"
+PLS0201A,SEKI,PILA,S,2,1,A,1549,SEKI CC(S facing) Plot 2 Tree 1 Part 1 of core and SEKI CC Plot 2 Tree 1 Part 2 of core,28,8,2021,79,,,108.5,54,5,5m to creek; did not hit pitch on core A (part 1 or 2) or B.
+PLS0201B,SEKI,PILA,S,2,1,B,1549,SEKI CC plot 2 (S facing) Tree 1 Core B,28,8,2021,79,,,108.5,54,5,5m to creek; did not hit pitch on core A (part 1 or 2) or B.
+PLS0202A,SEKI,PILA,S,2,2,A (need to change from B to A),1549,SEKICC2 Tree 2 Core B,28,8,2021,80,,,133.6,44.4,3,7m to creek; cones; very big--didn't get to pith; suppressed
+PLS0202B,SEKI,PILA,S,2,2,B (need to change from C to B),1549,SEKI CC2 Tree 2 Core C,28,8,2021,80,,,131.5,44.4,3,7m to creek; cones; very big--didn't get to pith; suppressed
+PLS0203A,SEKI,PILA,S,2,3,A,1549,missing or already mounted,28,8,2021,81,,,35.8,15.6,10,Fire scar (about 3m high) on side closest to trees 1 and 2; 5m to creek;
+PLS0204A,SEKI,PILA,S,2,4,A,1549,SEKI CC2 Tree 4 Core A,28,8,2021,82,,,125.8,48.9,5,Cones; 7.2m fire scar
+PLS0204B,SEKI,PILA,S,2,4,B,1549,SEKI CC2 Tree 4 Core B,28,8,2021,82,,,125.8,48.9,5,Cones; 7.2m fire scar; cored to pith
+PLS0205A,SEKI,PILA,S,2,5,A,1549,SEKI CC2 Tree 5 Core A,28,8,2021,83,,,96.9,44.1,4,"Cones; 5m to river; hit scar, resistance increased then hit pith/near pith after scar/break"
+PLS0206A,SEKI,PILA,S,2,6,A,1549,SEKI CC2 Tree 6,28,8,2021,84,,,105.8,44.6,3,"Not quite centered, but near pith; 5m to river; GPS 14 ft adjusted; upslope core"
+PLS0207A,SEKI,PILA,S,2,7,A,1549,SEKI CC2 Tree 7,28,8,2021,85,,,96.1,48.5,5,Cored to pith; 9.1m fire scar; about 15m to river
+PLS0208A,SEKI,PILA,S,2,8,A,1549,missing or already mounted,28,8,2021,86,,,39,25.1,3,Cored to pith; 10m to Hwy 180; mechanical wound on bole
+PLS0209A,SEKI,PILA,S,2,9,A,1549,missing or already mounted,28,8,2021,87,,,48,26.6,4,near pith--end broke off
+PLN0401A,SEKI,PILA,N,4,1,A,2011,Plot 4 (N facing) Tree 1 Core A PILA,29,7,2021,59,,,78.7,30,8,lots of water when cored
+PLN0401B,SEKI,PILA,N,4,1,B,2011,Plot 4 (N facing) Tree 1 Core B PILA,29,7,2021,59,,,78.7,30,8,lots of water when cored
+PLN0401C,SEKI,PILA,N,4,1,C,2011,Plot 4 (N facing) Tree 1 Core C PILA,29,7,2021,59,,,78.7,30,8,lots of water when cored
+PLN0402A,SEKI,PILA,N,4,2,A,2011,Plot 4 (N facing) Tree 2 Core A PILA,29,7,2021,60,,,19.4,9.1,6,fire scar
+PLN0403A,SEKI,PILA,N,4,3,A,2011,Plot 4 (N facing) Tree 3 PILA,29,7,2021,61,,,45.5,21.7,8,fire scar; fused at base with #4
+PLN0404A,SEKI,PILA,N,4,4,A,2011,PILA Plot 4 (N facing) Tree 4,29,7,2021,61,,,42,21.3,9,fire scar; fused at base with #3
+PLN0405A,SEKI,PILA,N,4,5,A,2011,Plot 4  (N facing) Tree 5,29,7,2021,62,,,40.7,21.9,8,some flagging and a bit of pitching: WPBR?
+PLN0406A,SEKI,PILA,N,4,6,A,2011,Plot 4 (N facing) Tree 6 Core A,29,7,2021,63,,,55.4,26,5,A few flags?
+Not_cored,SEKI,PILA,N,4,7,Not_cored,2011,missing or already mounted,29,7,2021,94,,,8.8,6.1,3,very suppressed; too small to core
+PLN0408A,SEKI,PILA,N,4,8,A,2011,missing or already mounted,29,7,2021,95,,,21.1,12.2,5,"GPS adjusted 14ft, growing agains rock"
+PLN0409A,SEKI,PILA,N,4,9,A,2011,missing or already mounted,29,7,2021,96,,,27.2,12.4,9,"fire scar and mechanical damage to bark, sloughing"
+Not_cored,SEKI,PILA,N,4,10,Not_cored,2011,Not_cored,29,7,2021,97,,,31.1,17.8,60,"bole canker, DTOP, small fire scar, next to PIJE and ABCO"
+PLN0411A,SEKI,PILA,N,4,11,A,2011,missing or already mounted,29,7,2021,98,,,65.1,30,5,fire scar below DBH; fused at base with #12
+PLN0411B,SEKI,PILA,N,4,11,B,2011,missing or already mounted,29,7,2021,98,,,65.1,30,5,fire scar below DBH; fused at base with #12
+PLN0412A,SEKI,PILA,N,4,12,A,2011,missing or already mounted,29,7,2021,98,,,50.5,29.9,7,fire scar below DBH; fused at base with #11
+PLN0501A,SEKI,PILA,N,5,1,A,2230,Tree 1 N facing2230m (CC5) 8-31-21,31,8,2021,104,,,33.8,13.7,7,"16 ft adjusted for GPS; a little ABGR; got to pith, but core in two parts"
+Not_cored,SEKI,PILA,N,5,2,A,2230,Not_cored,31,8,2021,105,,,11.5,4.7,2,very small; MECH near DBH
+Not_cored,SEKI,PILA,N,5,3,A,2230,Not_cored,31,8,2021,106,,,109.8,29.3,18,Low fire scar; LEAN; DTOP; some dieback
+PLN0504A,SEKI,PILA,N,5,4,A,2230,,31,8,2021,107,,,30.9,13.6,4,"Rodent chew on 3 branches, but no other signs of WPBR; growing near rocks"
+PLN0505A,SEKI,PILA,N,5,5,A,2230,SEKI N facing 2230m (CC5A) Tree 5 8/31/21,31,8,2021,108,,,25,14,6,Mechanical damage due to falling trees; low fire scar
+PLN0506A,SEKI,PILA,N,5,6,A,2230,SEKI N facing 2230m (CC5A) Tree 6,31,8,2021,109,,,29,17.3,6,Mechanical damage due to falling trees; low fire scar
+PLN0507A,SEKI,PILA,N,5,7,A,2230,SEKI N facing 2230m (CC5A) 8/31/21 Tree 7,31,8,2021,110,,,41.5,20.3,5,CROOK; 2-3m fire scar
+PLN0508A,SEKI,PILA,N,5,8,A,2230,SEKI N facing 2230m Tree 8 8/31/21,31,8,2021,111,,,65,28.4,7,
+PLN0509A,SEKI,PILA,N,5,9,A,2230,SEKI N facing 2230m Tree 9 8/31/21,31,8,2021,112,,,51.6,26.7,5,fused with GPS point #115 at base (tree 12)
+PLN0510A,SEKI,PILA,N,5,10,A,2230,SEKI N facing 2230m (CC5A) Tree 10,31,8,2021,113,,,28.2,14.1,4,
+Not_cored,SEKI,PILA,N,5,11,A,2230,Not_cored,31,8,2021,114,,,8,4.9,50,very suppressed; DTOP
+PLN0512A,SEKI,PILA,N,5,12,A,2230,SEKI N facing 2230m Tree 12 Core A,31,8,2021,115,,,20.9,13.9,3,suppressed by other trees; upslope of GPS point #112 (tree 9)
+PLN0512B,SEKI,PILA,N,5,12,B,2230,SEKI N facing 2230m (CC5A) Tree 12 Core B 8/31/21,31,8,2021,115,,,20.9,13.9,3,suppressed by other trees; upslope of GPS point #112 (tree 9)
+PLN0513A,SEKI,PILA,N,5,13,A,2230,SEKI N facing (CC5A) 2230m Tree 13 8/31/21,31,8,2021,116,,,20.8,9.4,3,GPS adjusted 16ft
+PMN0601A,SEKI,PIMO,N,6,1,A,2400,SEKI 2400m N facing Tree 1 9/1/21,1,9,2021,121,,,19.9,9.5,6,1 cone
+Not_cored,SEKI,PIMO,N,6,2,Not_cored,2400,Not_cored,1,9,2021,120,,,63.8,25.8,20,DTOP; 25.8 to DTOP; 22.3 to live cones
+PMN0603A,SEKI,PIMO,N,6,3,A,2400,SEKI N facing 2400m Tree 2 (pretty sure this should be 3) 9/1/2021,1,9,2021,122,,,48.8,17.2,13,"cones, a lot of yellow dieback, but looks healthy otherwise"
+PMN0604A,SEKI,PIMO,N,6,4,A,2400,SEKI N facing 2400m Tree 4 9/1/21 (bark and pith/rot),1,9,2021,123,,,107.3,27.8,5,"about 3in into plot; cones, shaggy top"
+PMN0605A,SEKI,PIMO,N,6,5,A,2400,SEKI N facing 2400m Tree 5,1,9,2021,124,,,74.3,33.7,3,"cones, looks healthy, distributed pitching from bole probably due to growth"
+PMN0606A,SEKI,PIMO,N,6,6,A,2400,SEKI N facing 2400m Tree 6 9/1/21,1,9,2021,125,,,64.4,24,9,"yellowing needles--dieback? Slight lean and scar, took core sideslope opposite scar"
+PMN0607A,SEKI,PIMO,N,6,7,A,2400,SEKI 2400m Tree 7 9/1/21,1,9,2021,126,,,42.8,19.9,4,"a few cones, sparse"
+PMN0608A,SEKI,PIMO,N,6,8,A,2400,,1,9,2021,127,,,78.7,30,2,cones; healthy
+Not_cored,SEKI,PIMO,N,6,9,Not_cored,2400,,1,9,2021,128,,,36.9,21.6,19,"WPBR; DTOP and pitching a few cones, probable bole canker, sloughing bark; photos and video of rot, core, and top of tree around 4:06pm"
+PMN0610A,SEKI,PIMO,N,6,10,A,2400,,1,9,2021,129,,,80.9,26.5,9,Scraggly top; cones
+Not_cored,SEKI,PIMO,N,6,11,Not_cored,2400,,1,9,2021,130,,,57.6,29.1,10,"cones, full sun in clearing; 30ft adjusted; not cored due to possible WPBR--looked like 3% dead from one side, but more like 10% from the other side. Yellow needles and a lot of dieback. Doesn't look like WPBR flags, but pitching on bole could be 1-2 bole cankers; photos around 5:15pm"
+PMN0612A,SEKI,PIMO,N,6,12,A,2400,,1,9,2021,134,,,89.2,33.9,4,"cones, near NPS sign"
+PMN0613A,SEKI,PIMO,N,6,13,A,2400,,1,9,2021,131,,,36.1,17.9,5,
+PMN0614A,SEKI,PIMO,N,6,14,A,2400,SEKI 2400m Tree 14 9/1/21,1,9,2021,132,,,33.4,17.7,4,
+PMN0615A,SEKI,PIMO,N,6,15,A,2400,,1,9,2021,133,,,29,11.9,5,growing right next to a PIJE
+PMN0901A,SEKI,PIMO,N,9,1,A,2812,SK P9 T1 PIMO (L),7,20,2021,P9T1,,,74.7,15,2,
+PMN0902A,SEKI,PIMO,N,9,2,A,2812,SK P9 T2 PIMO (L),7,20,2021,T9T2,,,30.5,7,5,
+PMN0903A,SEKI,PICO,N,9,3,A,2812,SK P9 T3 PICO (L),7,20,2021,P9T3,,,39,9,4,
+PMN0903B,SEKI,PICO,N,9,3,B,2812,SK P9 T3 PICO (L),7,20,2021,P9T3,,,39,9,4,
+Not_cored,SEKI,PIMO,N,9,4,Not_cored,2812,Not_cored,7,20,2021,P9T4,,,10.9,4.5,5,
+PMN0905A,SEKI,PIMO,N,9,5,,2812,SK P09 T5 PIMO (L),7,20,2021,P9T5,,,33.6,10.5,3,cones
+PMN0906A,SEKI,PIMO,N,9,6,,2812,SK P09 T06 PIMO (L),7,20,2021,P9T6,,,82,13,5,"old flags and rodent chew--maybe old blister rust, but not currently infected"
+Not_cored,SEKI,PICO,N,9,7,Not_cored,2812,Not_cored,7,20,2021,P9T7,,,61.4,15,15,sparse tree
+PMN0908A,SEKI,PIMO,N,9,8,,2812,SK P09 T08 PIMO (L),7,20,2021,P9T8,,,44.3,12,5,
+Not_cored,SEKI,PIMO,N,9,9,Not_cored,2812,Not_cored,7,20,2021,P9T9,,,76.5,14,13,
+Not_cored,SEKI,PIMO,N,9,10,Not_cored,2812,Not_cored,7,20,2021,P9T10,,,29,9,10,"DBH smaller trunk, twin with #11"
+PMN0911A,SEKI,PIMO,N,9,11,A,2812,SK P09 T11 PIMO (L),7,20,2021,P9T10,,,46.1,14,5,"twin with #10, upslope core"
+PMN0912A,SEKI,PIBA,N,9,12,A,2812,SK P09 T12,7,20,2021,,,,28.2,12,3,
+PMN0913A,SEKI,PIMO,N,9,13,A,2812,SK P09 T13 PIMO (L),7,20,2021,P9T13,,,54.2,14.5,2,"twin with #14, forked at DBH, upslope core"
+PMN0914A,SEKI,PIMO,N,9,14,A,2812,SK P9 T14 PIMO (L),7,20,2021,P9T13,,,53.5,14,2,twin with #13
+PMN0915A,SEKI,PIMO,N,9,15,A,2812,SK P09 T15 PIMO (L),7,20,2021,P9T15,,,54.2,13,40,possible old bole canker and rodent chew
+PMN0916A,SEKI,PIMO,N,9,16,A,2812,SK P09 T16 PIMO (L),7,20,2021,P9T16,,,16.7,6.5,2,"twin with 17, cored upslope due to branches"
+PMN0917A,SEKI,PIMO,N,9,17,A,2812,SK P9 T17 PIMO (L),7,20,2021,P9T16,,,18,7,2,"twin with 16, cored upslope due to branches"
+PMN1101A,SEKI,PIBA,N,11,1,A,3293,SK P11 T1 PIBA (L),7,19,2021,42,,,27.7,6,2,"twin with tree 2, upslope core"
+PMN1102A,SEKI,PIBA,N,11,2,A,3293,SK P11 T2 PIBA (L),7,19,2021,43,,,24.8,5.5,2,"twin with tree 1, core angled up"
+PMN1103A,SEKI,PIBA,N,11,3,A,3293,SK P11 T3 PIBA (L),7,19,2021,44,,,29.3,7,2,upslope core
+PMN1104A,SEKI,PIBA,N,11,4,A,3293,SK P11 T4A PIBA (L),7,19,2021,45,,,24,5.5,2,"double trunk, collected from larger trunk, core hard to start"
+PMN1104B,SEKI,PIBA,N,11,4,B,3293,SK P11 T4B PIBA (L),7,19,2021,45,,,24,5.5,2,"double trunk, collected from larger trunk, core hard to start"
+PMN1105A,SEKI,PIBA,N,11,5,A,3293,SK P11 T5 PIBA (L),7,19,2021,46,,,26.5,7,3,note about coring hard to read
+PMN1106A,SEKI,PICO,N,11,6,A,3293,SK P11 T6 PICO (L),7,19,2021,47,,,15,4,5,
+PMN1107A,SEKI,PIBA,N,11,7,A,3293,SK P11 T7 PIBA (L),7,19,2021,48,,,56.4,7.5,1,
+PMN1108A,SEKI,PILA,N,11,8,A,3293,B SEKI Plot 11 T8 PIAL,7,19,2021,49,,,71.3,10,3,2 straws separate
+PMN1109A,SEKI,PIBA,N,11,9,A,3293,SEKI Plot 11 Tree 9 PIBA (L),7,19,2021,50,,,13.1,4,1,missing; also straw says PIBA while data sheet says PICO--wood and bit of bark look like PIBA; 1 long clump about 5 stems
+PMN1110A,SEKI,PICO,N,11,10,A,3293,SK P11 T10 PICO (L),7,19,2021,51,,,26.3,9,2,"2 trunks, larger, upright"
