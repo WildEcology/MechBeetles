@@ -23,6 +23,8 @@ library(ggpubr)
 library(lme4)
 library(sjPlot)
 library(ggeffects)
+library(patchwork)
+
 
 select <- dplyr::select
 rename <- dplyr::rename
@@ -30,7 +32,7 @@ group_by <- dplyr::group_by
 
 ##theme for plots
 theme_set(
-  theme_bw(base_size = 15)+
+  theme_bw(base_size = 25)+
     theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
           plot.title = element_text(hjust = 0.5))
 )
@@ -53,8 +55,13 @@ combdat <- plotdat %>%
   rename(resin=resin_duct_count) %>% 
   filter(!is.na(resin)) %>% 
   filter(!species=="PIAL") %>% 
-  filter(!species=="PICO")
+  filter(!species=="PICO") %>% 
+  mutate(species1=ifelse(species=="PIMO", "Western white",
+                         ifelse(species == "PILA", "Sugar pine", "Foxtail pine")))
 
+
+uniquedat <- combdat %>% 
+  distinct(elevation_m, species1, aspect)
 
 ##running a few models
 mod1 <- lmer(resin ~ species +dbh+height+ elevation_m + aspect + (1|calendar_year), data=combdat)
@@ -68,6 +75,21 @@ pred <- ggpredict(mod1)
 plot(pred)
 
 summary(aov(resin ~ species + elevation_m  + aspect + calendar_year, data=combdat))
+
+
+pila <- combdat %>% 
+  group_by(elevation_m, species, calendar_year, aspect) %>% 
+  summarise(meanresin=mean(resin)) %>% 
+  filter(aspect=="N") 
+  #filter(species=="PILA")
+pila
+
+ggplot(pila, aes(x=elevation_m, y=meanresin, color=species))+
+  geom_point()+
+  geom_smooth(method="lm")
+
+ggplot(na.omit(combdat), aes(x=aspect, y=resin, fill=aspect))+
+  geom_boxplot()
 
 ##figures
 ##creating a color palette
@@ -141,20 +163,22 @@ scale_fill_branded <- scale_fill_branded
 
 hist(combdat$resin)
 
-ggplot(combdat, aes(x=factor(species), y=resin, fill=species, color="species")) +
+sp_plot <- ggplot(combdat, aes(x=factor(species1), y=resin, fill=species1, color="species1")) +
   #geom_jitter(alpha=.1, width= .4)+
-  geom_boxplot(outlier.colour = "NA") +
-  scale_fill_branded() +
+  geom_boxplot(outlier.colour = "NA", width=.7) +
+  scale_fill_branded(labels  = c("Foxtail pine",  "Sugar pine", "Western white")) +
   #scale_color_branded() +
-  scale_color_manual(values = "black") +
+  scale_color_manual(values = "black",
+                     labels = c("Foxtail pine",  "Sugar pine", "Western white")) +
   guides(fill="none", color= "none") +
   ylim(0, 10) +
   ylab("Resin ducts (#/ring)") +
-  xlab("Pine species")
+  xlab("")
 
+sp_plot
 
 aspect <- ggplot(filter(combdat,!is.na(aspect)), aes(x=aspect, y=resin, fill=aspect))+
-  geom_boxplot(outlier.colour = "NA") +
+  geom_boxplot(outlier.colour = "NA", width=.6) +
   scale_fill_branded() +
   #scale_color_branded() +
   scale_color_manual(values = "black") +
@@ -162,44 +186,67 @@ aspect <- ggplot(filter(combdat,!is.na(aspect)), aes(x=aspect, y=resin, fill=asp
   ylab("Resin ducts (#/ring)") +
   xlab("Aspect")+
   ylim(0, 10)+
-  stat_compare_means(
-    aes(label = paste0("p = ", ..p.format..))
-  )
+  stat_compare_means(aes(label = paste0("p = ", ..p.format..)), size=5)
+                     
+aspect
+help("stat_compare_means")
+sp_plot+aspect +
+  plot_annotation(tag_levels = "A")
 
 
-ggplot(combdat, aes(x=calendar_year, y=resin, color=species, fill=species))+
+acrossyear <- ggplot(combdat, aes(x=calendar_year, y=resin, color=species1, fill=species1))+
   #geom_jitter(alpha=.5, color="grey")+
-  geom_smooth( aes(x=calendar_year, y=resin, fill=species), method="lm")+
+  geom_smooth( aes(x=calendar_year, y=resin, fill=species1), method="lm")+
   ylab("Resin ducts (#/ring)") +
   xlab("Year")+
   scale_fill_branded() +
   scale_color_branded() +
-  scale_x_continuous(name="Year", breaks = scales::pretty_breaks(n = 20))
-  
-ggplot(combdat, aes(x=elevation_m, y=resin, color=species, fill=species))+
+  scale_x_continuous(name="Year", breaks = scales::pretty_breaks(n = 16))+
+  theme(legend.title = element_blank())
+
+library(patchwork)
+(sp_plot / aspect)  &
+  plot_annotation(tag_levels="a") & theme(
+      plot.tag = element_text(face = 'bold', size=15, family ="Helvetica"))
+                                                                                                
+
+ggplot(combdat, aes(x=elevation_m, y=resin, color=species1, fill=species1))+
   #geom_jitter(alpha=.5, color="grey")+
-  geom_smooth( aes(x=elevation_m, y=resin, fill=species), method="lm")+
+  geom_smooth( aes(x=elevation_m, y=resin, fill=species1), method="lm")+
   ylab("Resin ducts (#/ring)") +
   xlab("Elevation")+
   scale_fill_branded() +
   scale_color_branded() +
   scale_x_continuous(name="Elevation (m)", breaks = scales::pretty_breaks(n = 15))
 
+ggplot(combdat, aes(x=elevation_m, y=resin))+
+  #geom_jitter(alpha=.5, color="grey")+
+  #geom_point()+
+  geom_smooth( aes(x=elevation_m, y=resin), method="lm") +
+  ylab("Resin ducts (#/ring)") +
+  xlab("Elevation")+
+  #scale_fill_branded() +
+  #scale_color_branded() +
+  scale_x_continuous(name="Elevation (m)", breaks = scales::pretty_breaks(n = 6))
 
 
-dbh <- ggplot(filter(combdat,!is.na(dbh)), aes(x=dbh, y=resin, fill=species, color=species))+
-  geom_smooth( aes(x=dbh, y=resin, fill=species), method="lm")+
+
+dbh <- ggplot(filter(combdat,!is.na(dbh)), aes(x=dbh, y=resin, fill=species1, color=species1))+
+  geom_smooth( aes(x=dbh, y=resin, fill=species1), method="lm")+
   ylab("Resin ducts (#/ring)") +
   xlab("DBH (cm)")+
   scale_fill_branded() +
   scale_color_branded() +
-  scale_x_continuous(name="DBH (cm)", breaks = scales::pretty_breaks(n = 15))
+  scale_x_continuous(name="DBH (cm)", breaks = scales::pretty_breaks(n = 15))+
+  theme(legend.title = element_blank())
 dbh
 
-height <- ggplot(combdat, aes(x = height, y=resin, fill=species, color=species))+
+height <- ggplot(combdat, aes(x = height, y=resin, fill=species1, color=species1))+
   geom_smooth( method="lm")+
   ylab("Resin ducts (#/ring)") +
   scale_fill_branded() +
   scale_color_branded() +
-  scale_x_continuous(name="Height (m)", breaks = scales::pretty_breaks(n = 15))
+  scale_x_continuous(name="Height (m)", breaks = scales::pretty_breaks(n = 15))+
+  theme(legend.title = element_blank())
 height
+
